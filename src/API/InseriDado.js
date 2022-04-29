@@ -28,6 +28,7 @@ class InseriDado extends Component {
       <div>
         <form onSubmit={this.handleSubmit}>
           <div>
+          <h1>Inserir dos dados</h1>
             <label>Nome</label>
             <input
               type="text"

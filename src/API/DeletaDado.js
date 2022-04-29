@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import axios from "axios";
+
 class DeletaDado extends Component {
   constructor(props) {
     super(props);
@@ -18,13 +19,15 @@ class DeletaDado extends Component {
       console.log(response);
     });
   };
-  
+
   render() {
+
     const { codigo } = this.state;
     return (
       <div>
         <form onSubmit={this.handleSubmit}>
           <div>
+          <h1>Deletar dados</h1>
             <label>Código</label>
             <input
               type="text"
