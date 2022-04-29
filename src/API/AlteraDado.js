@@ -26,6 +26,8 @@ class AlteraDado extends Component {
     const { codigo, nome, idade } = this.state;
     return (
       <div>
+        <h1>Altera dos dados</h1>
+
         <form onSubmit={this.handleSubmit}>
           <div>
             <label>Código</label>
